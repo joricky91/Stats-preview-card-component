@@ -76,10 +76,11 @@ p{
     margin-bottom: 20px;
 }
 
-.container .card ul li h2{
+.container .card ul li h3{
     display: block;
     font-weight: 700;
     font-family: "Lexend Deca", sans-serif;
+    font-size: 24px;
 }
 
 .container .card ul li span{
