@@ -109,7 +109,7 @@ p{
 
     .container .picture{
         background: url("./images/image-header-desktop.jpg") no-repeat center/cover;
-        width: 50%;
+        min-width: 50%;
         border-radius: 0 10px 10px 0;
     }
 
@@ -123,5 +123,36 @@ p{
          display: flex;
          align-items: flex-start;
          flex-direction: column;
+         padding: 20px;
+         text-align: left;
      }
+
+     .container .card ul{
+         display: flex;
+         justify-content: space-around;
+         flex-direction: row;
+         margin-left: 20px;
+     }
+
+     .container .card ul li{
+         margin-right: 35px;
+     }
+}
+
+@media (min-width: 970px){
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+    }
+
+    .container .card{
+        padding: 0 30px;
+    }
+
+    .container .card p{
+        margin-bottom: 50px;
+    }
 }
