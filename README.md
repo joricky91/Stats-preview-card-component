@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-[design/joricky-stat-preview.png]
+[./design/joricky-stat-preview.png]
 
 ### Links
 
